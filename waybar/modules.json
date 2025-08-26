@@ -2,7 +2,7 @@
   "custom/arch": {
     "format": "󰣇 ",
     "tooltip": true,
-    "tooltip-format": "btw"
+    "tooltip-format": "zeroqxq"
   },
 
   "hyprland/workspaces": {
@@ -16,21 +16,7 @@
       "default": ""
     }
   },
-  "wlogout": {
-    "disable-scroll": true,
-    "all-outputs": true,
-    "warp-on-scroll": false,
-    "format": "{icon}",
-    "format-icons": " ",
-    "on_click": "sh /home/zeroqxq/scripts/wlogout.sh"
-  },
-  "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-      "activated": "",
-      "deactivated": ""
-    }
-  },
+
   "pulseaudio": {
     "format": "{icon}  {volume}%",
     "format-bluetooth": "{icon} {volume}%  {format_source}",
